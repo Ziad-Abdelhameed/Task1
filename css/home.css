@@ -1,0 +1,12 @@
+.add {
+  padding: 10px;
+  background-color: rgb(191 163 163 / 19%);
+  margin: 10px;
+  width: fit-content;
+  display: inline-block;
+  border-radius: 30px;
+  text-shadow: 3px -1px 3px #891d1d;
+}
+img {
+  width: 25%;
+}

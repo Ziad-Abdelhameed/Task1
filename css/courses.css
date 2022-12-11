@@ -1,0 +1,30 @@
+img {
+  width: 7%;
+  padding-left: 15px;
+}
+caption,
+td,
+th {
+  font-weight: bold;
+  padding: 8px;
+}
+table {
+  border-spacing: 1px;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+div {
+  padding: 10px;
+}

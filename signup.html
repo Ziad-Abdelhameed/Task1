@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/signup.css" />
+    <title>Sign Up</title>
+    <meta name="description" content="Premier League News" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body class="center">
+    <section>
+      <figure>
+        <img src="download.png" alt="" style="max-width: 30%" />
+        <figcaption style="font-weight: bold">W3Schools</figcaption>
+      </figure>
+
+      <!-- <audio controls autoplay loop>
+        <source src="شركة المعربين المحدودة.mp3" type="audio/mpeg" />
+      </audio> -->
+    </section>
+    <form class="center" method="get" target="_blank">
+      <input
+        type="text"
+        required
+        placeholder="Username"
+        name="username"
+        autofocus
+      />
+
+      <input type="password" required placeholder="Password" name="password" />
+
+      <input
+        type="tel"
+        name="Mobile"
+        id="mobile"
+        placeholder="Your Phone"
+        maxlength="11"
+      />
+
+      <input type="email" required placeholder="Email" name="mail" />
+
+      <div class="row">
+        <input type="radio" name="os" id="windows" checked />
+        <label for="windows">Windows</label>
+
+        <input type="radio" name="os" id="mac" />
+        <label for="mac">Mac</label>
+
+        <input type="radio" name="os" id="linux" />
+        <label for="linux">Linux</label>
+      </div>
+
+      <input list="OS" name="os" placeholder="Operating System you use" />
+      <datalist id="OS">
+        <option value="Windows"></option>
+        <option value="Mac"></option>
+        <option value="Linux"></option>
+      </datalist>
+
+      <!-- <div class="row">
+        <div>
+          <input type="checkbox" name="Fav-Team" id="Liver" />
+          <label for="Liver">Liverpool</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Fav-Team" id="Mancity" />
+          <label for="Mancity">Mancity </label>
+        </div>
+        <div>
+          <input type="checkbox" name="Fav-Team" id="Arsnal" />
+          <label for="Arsnal">Arsnal</label>
+        </div>
+      </div> -->
+
+      <span class="row">
+        <input type="submit" value="Submit" id="Submit" />
+
+        <!-- <input type="image" id="image" src="premier-league-2.png" /> -->
+
+        <input type="reset" name="reset" value="Reset" id="Reset" />
+      </span>
+    </form>
+    <!-- <iframe src="https://www.w3schools.com" frameborder=""></iframe> -->
+  </body>
+</html>

@@ -1,0 +1,57 @@
+input {
+  border-radius: 40px;
+  padding: 6px;
+  /* margin-bottom: 20px; */
+  margin: 18px;
+  text-align: center;
+}
+::placeholder {
+  font-weight: 600;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+#Submit {
+  background-color: green;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  width: 150px;
+}
+
+#Reset {
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  width: 150px;
+}
+
+.center {
+  /* padding: 3px; */
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+label,
+.OS {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+#image {
+  width: 150px;
+  height: 80px;
+  border-radius: 50px;
+}
